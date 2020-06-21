@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Pedro Augusto <pedroaugusto.developer@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.0",
     "@types/node": "^14.0.13",
     "@typescript-eslint/eslint-plugin": "3",
     "eslint": "7",
@@ -16,7 +20,9 @@
     "git-commit-msg-linter": "^2.4.4",
     "husky": "^4.2.5",
     "install": "^0.13.0",
+    "jest": "^26.0.1",
     "lint-staged": "^10.2.11",
+    "ts-jest": "^26.1.0",
     "typescript": "^3.9.5"
   }
 }
